@@ -28,5 +28,5 @@ Un pipeline de ingeniería de datos 100% automatizado que extrae, limpia y trans
 
 ## Para ver el Dashboard hacer lo siguiente
 
-1. Entrar en Metabase, `http://localhost:3000/dashboard`
+1. Entrar en Metabase, `http://localhost:3000`
 2. Crear preguntas nuevas y si se desea añadir a Dashboard
