@@ -1,0 +1,9 @@
+name: 'cripto_dbt'
+version: '1.0.0'
+profile: 'perfil_cripto' # Debe coincidir con el nombre del profiles.yml
+
+model-paths: ["models"] # Le dice a dbt que busque los SQL en la carpeta models
+
+models:
+  cripto_dbt:
+    materialized: table # Le dice a dbt que cree tablas reales, no vistas
