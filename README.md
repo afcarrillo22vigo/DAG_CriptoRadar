@@ -25,3 +25,8 @@ Un pipeline de ingeniería de datos 100% automatizado que extrae, limpia y trans
 3. Accede a Airflow en `http://localhost:8080` (usuario/contraseña por defecto en `docker-compose.yaml`).
 4. Activa y ejecuta el DAG `analisis_criptomonedas_new`.
 5. Conéctate al puerto `5432` con tu cliente SQL favorito para ver los resultados procesados por dbt.
+
+## Para ver el Dashboard hacer lo siguiente
+
+1. Entrar en Metabase, `http://localhost:3000/dashboard`
+2. Crear preguntas nuevas y si se desea añadir a Dashboard
