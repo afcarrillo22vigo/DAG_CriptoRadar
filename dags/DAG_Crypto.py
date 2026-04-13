@@ -85,7 +85,7 @@ with DAG(
 
     @task.bash
     def transformar_dbt():
-        return "cd /opt/airflow/cripto_dbt && dbt run --profiles-dir ."
+        return "cd /opt/airflow/cripto_dbt && dbt test --profiles-dir ."
 
     path = capa_bronce_extraer()
     path_plata = capa_plata_limpiar(path)

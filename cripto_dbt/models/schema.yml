@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: top_5_ganadoras
+    description: "Top 5 de criptomonedas con mayor crecimiento diario."
+    columns:
+      - name: symbol
+        description: "El símbolo de la criptomoneda (ej. btc, eth)."
+        tests:
+          - unique # No puede haber criptomonedas repetidas
+          - not_null # La columna symbolno puede estar vacía nunca
+
+  - name: resumen_volumen
+    description: "Clasificación de las monedas por su volumen de mercado."
+    columns:
+      - name: symbol
+        tests:
+          - unique
+          - not_null
