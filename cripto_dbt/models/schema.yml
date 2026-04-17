@@ -8,7 +8,7 @@ models:
         description: "El símbolo de la criptomoneda (ej. btc, eth)."
         tests:
           - unique # No puede haber criptomonedas repetidas
-          - not_null # La columna symbolno puede estar vacía nunca
+          - not_null # La columna symbol no puede estar vacía nunca
 
   - name: resumen_volumen
     description: "Clasificación de las monedas por su volumen de mercado."

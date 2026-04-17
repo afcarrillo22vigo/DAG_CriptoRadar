@@ -61,6 +61,8 @@ with DAG(
                 "price_change_percentage_24h",
             ]
         ].copy()
+        print(df.columns.to_list())
+        print(df_clean.columns.to_list())
         df_clean["Date"] = ds
 
         print(df_clean.columns.to_list())
